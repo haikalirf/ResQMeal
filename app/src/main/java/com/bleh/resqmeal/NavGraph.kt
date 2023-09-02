@@ -26,7 +26,7 @@ import com.bleh.resqmeal.pages.SplashPage
 fun NavGraph(navController: NavHostController) {
     NavHost (
         navController = navController,
-        startDestination = "main"
+        startDestination = "onboarding"
     ) {
         navigation(
             startDestination = "splash",
